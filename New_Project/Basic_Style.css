@@ -18,7 +18,7 @@ h1{
 
 /* Select all squares in the array*/
 .container .squares:nth-child(-n+4){
-    background-image: url("images/icons/icons_2.png");
+    background-image: url("images/icons/icon_1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -57,11 +57,11 @@ h1{
     background: royalblue;
 }
 
-/*Hover, Animation, and Transition Effects*/
+/* Hover, Animation, and Transition Effects*/
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("images/icons/icon_1.png");
-    transform:translateY(50px);
-    animation-name: sleep;
+    background-image: url("images/icons/icons_2.png");
+    transform:scale(.5);
+    animation-name: play;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(2.5,.2,.3,2);
@@ -81,4 +81,13 @@ h1{
 
 .squares:nth-child(4):hover{
     background: peachpuff;
+}
+/* Animation */
+@keyframes play {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(335px);
+    }
 }
