@@ -4,7 +4,7 @@
 # Projects
 
 <ul> <li>Tarkov Living Site</li> 
- <li>Fake Dinosaur Park Site<li></ul>
+ <li>Fake Dinosaur Park Site</li></ul>
 
 # Tarkov Living Site
 This page is a home page example for the Tarkov community park. It's styled using CSS and contains a navbar, image containers, and a form.
